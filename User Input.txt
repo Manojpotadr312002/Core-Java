@@ -1,0 +1,37 @@
+User input is used to take value to the variable while running the program.
+Scanner class from util package has various method to take user input in java.
+
+Method :
+
+nextBoolean()	
+nextByte()	
+nextDouble()	
+nextFloat()	
+nextInt()	
+nextLine()	
+nextLong()	
+nextShort()
+
+
+How to Use Scanner Class to Take User Input?
+The following are the steps to use Scanner class for the user input in Java −
+
+Step 1: Import Scanner Class
+Fist you need to import the Scanner class to use its methods. To import the Scanner class, use the following import statement −
+
+--> import java.util.Scanner 
+
+Step 2: Create Scanner Class's Object
+After importing the Scanner class, you need to create its object to use its methods. To create an object of the Scanner class, invoke Scanner() constructor.
+
+Below is the statement to create an object of Scanner class −
+
+--> Scanner obj = new Scanner(System.in);
+
+Step 3: Take User Input
+Scanner class provides a variety of methods which are useful to take user input of different types. For example, if you want to input an integer value, use nextInt() method.
+
+The following is the statement to take user input in Java −
+
+--> int age = obj.nextInt();
+	
