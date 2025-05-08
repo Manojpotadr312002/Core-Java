@@ -62,7 +62,22 @@ public class Nested_Do_While_Loop {
 				}
 				while(i<=5);
 						
-						
+
+
+
+				// Multiplication Table (1 to 10)
+				int i=1; 
+				do {
+					int j=1;
+					do {
+						System.out.print(i * j+"\t");
+						j++;
+					}
+					while(j<=10);
+					i++;
+					System.out.println();
+				}
+				while(i<=10);
 						
 				
 
