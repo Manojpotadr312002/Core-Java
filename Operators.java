@@ -21,6 +21,7 @@ public class Operators {
 		System.err.println(a!=100);  // false
 		System.err.println(a==b);  // false
 		System.err.println(a<=b);  // true
+		System.out.println(b>a);  // true
 				
 		
 		// Assignment Operators
