@@ -80,6 +80,29 @@ public class Array_Sorting {
 			for(int i=0; i<n; i++) {
 				System.out.print(a[i]+" ");
 			}
+
+
+		
+	        // Sort the array
+			
+			int n;
+			System.out.print("Enter the size of array: ");
+			Scanner sc = new Scanner(System.in);
+			n = sc.nextInt();
+				
+			int a[] = new int[n];
+			for(int i=0; i<n; i++) {
+				a[i] = sc.nextInt();
+			}
+			
+			System.out.println("----- Original Array -----");
+			for(int i=0; i<n; i++) {
+				System.out.print(a[i]+" ");
+			}
+			System.out.println();
+			
+		        Arrays.sort(a);
+		        System.out.println("Sorted array: " + Arrays.toString(a));
 			
 	}
 }
