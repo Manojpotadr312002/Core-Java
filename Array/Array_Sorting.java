@@ -83,7 +83,7 @@ public class Array_Sorting {
 
 
 		
-	        // Sort the array
+	        // Sort the array by using toSorting Method
 			
 			int n;
 			System.out.print("Enter the size of array: ");
