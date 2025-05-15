@@ -4,7 +4,7 @@ public class array {
 	public static void main(String[] args) {
 		
 		
-		//maximum and minimum element in array
+		//Find the maximum and minimum element in array
 		int n;
 		System.out.print("Enter the size of array:");
 		Scanner sc = new Scanner(System.in);
