@@ -34,39 +34,39 @@ class PrimeCheck
 		}
 
 
-	    Scanner sc = new Scanner(System.in);
-
-        int n;
-        System.out.print("Enter the size of array: ");
-        n = sc.nextInt();
-
-        int a[] = new int[n];
-        System.out.println("Enter " + n + " elements:");
-        for (int i = 0; i < n; i++) {
-            a[i] = sc.nextInt();
-        }
-
-        System.out.println("----- Prime Numbers in Array -----");
-        for (int i = 0; i < n; i++) {
-            int x = 2;
-            boolean isPrime = true;
-
-            if (a[i] <= 1) {
-                continue;
-            }
-
-            while (x <= Math.sqrt(a[i])) {
-                if (a[i] % x == 0) {
-                    isPrime = false;
-                    break;
-                }
-                x++;
-            }
-
-            if (isPrime) {
-                System.out.println(a[i]);
-            }
-        }
+	// Prime number using Math.sqrt method    
+	        int n;
+	        System.out.print("Enter the size of array: ");
+		Scanner sc = new Scanner(System.in);
+	        n = sc.nextInt();
+	
+	        int a[] = new int[n];
+	        System.out.println("Enter " + n + " elements:");
+	        for (int i = 0; i < n; i++) {
+	            a[i] = sc.nextInt();
+	        }
+	
+	        System.out.println("----- Prime Numbers in Array -----");
+	        for (int i = 0; i < n; i++) {
+	            int x = 2;
+	            boolean isPrime = true;
+	
+	            if (a[i] <= 1) {
+	                continue;
+	            }
+	
+	            while (x <= Math.sqrt(a[i])) {
+	                if (a[i] % x == 0) {
+	                    isPrime = false;
+	                    break;
+	                }
+	                x++;
+	            }
+	
+	            if (isPrime) {
+	                System.out.println(a[i]);
+	            }
+	        }
       
   }
   }
