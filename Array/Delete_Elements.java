@@ -1,4 +1,8 @@
-//Delete element in array
+import java.io.*;
+import java.util.*;
+public class Array{
+	public static void main(String args []){
+		//Delete element in array
 		int n;
 		System.out.print("Enter the size of array: ");
 		Scanner sc = new Scanner(System.in);
@@ -20,7 +24,6 @@
 		
 		position = position-1;
 		
-		
 		if(position<n) {
 		for(int i=position; i<n-1; i++) {
 			a[i] = a[i+1];
@@ -35,3 +38,5 @@
 			System.out.print(" position is invalid... ");
 			
 		}
+	}
+}
