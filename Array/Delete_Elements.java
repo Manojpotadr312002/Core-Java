@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 public class Array{
 	public static void main(String args []){
+		
 		//Delete element in array
 		int n;
 		System.out.print("Enter the size of array: ");
