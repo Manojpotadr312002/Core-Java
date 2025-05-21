@@ -1,3 +1,7 @@
+import java.io.*;
+import java.util.*;
+class array{
+	public static void main(String args[]){
 //Exchange position of elements in array
 		int n;
 		Scanner sc = new Scanner(System.in);
@@ -41,3 +45,5 @@
 				System.out.print(" position is invalid... ");
 				
 			}
+	}
+}
