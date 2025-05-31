@@ -30,5 +30,6 @@ class Pattern_9{
     		else {
     			System.out.println("Enter the odd digit only.....!");
     		}
+    
   }
 }
