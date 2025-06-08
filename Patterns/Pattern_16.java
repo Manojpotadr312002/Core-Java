@@ -1,4 +1,4 @@
-import java.in.*;
+import java.io.*;
 import java.util.*;
 class Pattern_16{
   public static void main(String args[]){
