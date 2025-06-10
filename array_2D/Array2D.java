@@ -12,12 +12,14 @@ public class Array2D {
 		
 		int a[][] = new int[rows][columns];
 
+		System.out.println("Enter the element in array : ");
 		for(int i=0; i<rows; i++) {
 			for(int j=0; j<columns; j++) {
 				a[i][j] = sc.nextInt();
 			}
 		}
-		
+
+		System.out.println("Display array a : ");
 		for(int i=0; i<rows; i++) {
 			for(int j=0; j<columns; j++) {
 				System.out.print(a[i][j]+" ");
