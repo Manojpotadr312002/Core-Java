@@ -12,7 +12,7 @@ class Array2D{
 	for(int i=0; i<rows; i++)
 		{
 		for(for j=0; j<columns; j++){
-			System.out.print("Enter the a[i][j] : ");
+			System.out.print("Enter the a["+i+"]["+j+"] : ");
 			a[i][j] = sc.nextInt();
 		}
 	}
@@ -23,7 +23,7 @@ class Array2D{
 	for(int i=0; i<rows; i++)
 		{
 		for(int j=0; j<columns; j++){
-			System.out.print("Enter the b[i][j] : ");
+			System.out.print("Enter the b["+i+"]["+j+"] : ");
 			b[i][j] = sc.nextInt();
 		}
 	}
