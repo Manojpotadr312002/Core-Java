@@ -11,7 +11,7 @@ class Array2D{
 	System.out.println("Enter the "+rows*columns+" elements in array a :");
 	for(int i=0; i<rows; i++)
 		{
-		for(for j=0; j<columns; j++){
+		for(int j=0; j<columns; j++){
 			System.out.print("Enter the a["+i+"]["+j+"] : ");
 			a[i][j] = sc.nextInt();
 		}
