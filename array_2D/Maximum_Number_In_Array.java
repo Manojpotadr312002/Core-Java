@@ -7,7 +7,7 @@ class Array2D{
 	int rows = sc.nextInt();
 	int columns = sc.nextInt();
 
-  int a[][] = new int[rows][columns];
+        int a[][] = new int[rows][columns];
 		System.out.println("Enter the "+rows*columns+" elements in array a :");
 		
 		for(int i=0; i<rows; i++) {
