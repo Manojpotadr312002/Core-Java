@@ -35,6 +35,16 @@ class Array2D{
 		}
 		System.out.println("The maximum number in array is "+max);
 
+	        int min = max;
+		for(int i=0; i<m; i++) {
+			for(int j=0; j<n; j++) {
+				if(min > arr[i][j]) {
+				   min = arr[i][j];
+				}
+			}
+		}
+			System.out.println("The Minimum number in array is "+min);
+
   }
 
 }
