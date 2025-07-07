@@ -18,13 +18,7 @@ class Array2D{
 		}
 		
 		
-		int sum = 0;
-		for(int i=0; i<rows; i++) {
-			for(int j=0; j<columns; j++) {
-				sum = sum + a[i][j];
-			}
-		}
-		System.out.println("Total sum of array elements : "+sum);
+		
 
   }
 }
