@@ -18,7 +18,5 @@ class Array2D{
 		}
 		
 		
-		
-
   }
 }
