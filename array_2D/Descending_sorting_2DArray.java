@@ -25,12 +25,12 @@ class Array2D{
 			System.out.println();
 		}
 
-	       //Ascending order
+	       //Descending order
 		for(int i=0; i<rows; i++) {
 			for(int j=0; j<columns; j++){ 
 				for(int k=0; k<rows; k++) {
 					for(int l=0; l<columns; l++) {
-						if(a[i][j]<a[k][l]) {
+						if(a[i][j]>a[k][l]) {
 							int t=a[i][j];
 							a[i][j]=a[k][l];
 							a[k][l]=t;
