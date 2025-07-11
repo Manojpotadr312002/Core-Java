@@ -1,25 +1,44 @@
 import java.io.*;
 import java.util.*;
-class Pattern_17{
+class Pattern_18{
   public static void main(String args[]){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the value of n : ");
     int n = sc.nextInt();
 
-    for(int i=0; i<n; i++) {
-	for(int space=0; space<n-1-i; space++) {
-		System.out.print(" "+" ");
-	}
-	for(int j=0; j<=2*i; j++) {
-		if(i==n-1 || j==0 || j==2*i) {
-			System.out.print("* ");	
-		}
-		else {
-			System.out.print("  ");
-		}
-	}
-	System.out.println();
-     }
+    // Outer loop to handle the upper part
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= 2 * n; j++) {
+              
+                // To print spaces
+                if (j > i && j <= 2 * n - i) {
+                    System.out.print(" ");
+                }
+                
+                // To print stars
+                else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+
+        // Outer loop to handle the lower part
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= 2 * n; j++) {
+              
+                // To print spaces
+                if (j > i && j <= 2 * n - i) {
+                    System.out.print(" ");
+                }
+                
+                // To print stars
+                else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
     
   }
 }
