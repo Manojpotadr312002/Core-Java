@@ -23,7 +23,6 @@ public class Combination_Patterns {
 		}
 
 		
-		
 		// pyramid using combination of character and number
 		char ch='A';
 		for(int i=1; i<=5; i++) {
