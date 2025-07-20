@@ -10,7 +10,7 @@ public class Call_Method {
 	
 	public static void main(String[] args) {
 		
-		Operations m = new Operations();
+		Call_Method m = new Call_Method();
 		
 		m.Personal_Information();
 		
