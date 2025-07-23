@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+
 class Square{
 	public static void area(int a) {
 		System.out.println("Area of square :"+(a*a));
