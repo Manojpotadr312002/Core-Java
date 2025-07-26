@@ -6,6 +6,15 @@ public class Method_Parameter {
 		System.out.println(name+" is "+age+" years old...!");
 	}
 
+	public static void MyInfo(int age) {
+		if(age>18) {
+			System.out.println("You are eligible for voting.");
+		}
+		else {
+			System.out.println("You are not eligible for voting.");
+		}
+	}
+
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
