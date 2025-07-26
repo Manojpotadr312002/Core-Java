@@ -24,6 +24,7 @@ public class Method_Parameter {
 		int age = sc.nextInt();
 		
 		MyInfo(name,age);
+		MyInfo(age);
 	}
 
 }
