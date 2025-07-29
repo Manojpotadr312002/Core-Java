@@ -8,6 +8,14 @@ public class Recursion {
 	    }
 	}
 
+	public static int add(int start, int end) {
+		    if (end > start) {
+		      return end + add(start, end - 1);
+		    } else {
+		      return end;
+		    }
+		}
+
 	public static void main(String[] args) {
 		
 		int result = sum(10);
