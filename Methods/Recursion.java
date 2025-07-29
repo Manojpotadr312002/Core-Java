@@ -20,6 +20,9 @@ public class Recursion {
 		
 		int result = sum(10);
 	    System.out.println(result);
+
+		int result1 = add(5, 10);
+	    System.out.println(result1);
 	  }
 	 
 }
