@@ -1,14 +1,15 @@
 package Classes;
 
 public class Objects {
-	int x = 5;
+	String name = "Manoj Potdar";
+	int age = 25;
 
 	public static void main(String[] args) {
 	
 		Objects ob = new Objects();
 		
-		System.out.println(ob.x);
-
+		System.out.println(ob.name);
+		System.out.println(ob.age);
 	}
 
 }
