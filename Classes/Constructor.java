@@ -1,5 +1,4 @@
 public class Constructor {
-	
 	int x;
 	
 public Constructor() {
