@@ -1,12 +1,20 @@
 public class Method {
 	
-	public static void myStaticMethod() {
+	static void myStaticMethod() {
 		System.out.println("Static method...!");
+	}
+
+	public void myPublicMethod() {
+		System.out.println("Public method...!");
 	}
 
 	public static void main(String[] args) {
 		
 		myStaticMethod();
+		//myPublicMethod();
+		
+		Method obj = new Method();
+		obj.myPublicMethod();
 
 	}
 
