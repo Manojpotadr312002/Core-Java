@@ -18,7 +18,7 @@ public class Attributes {
 		myObj2.x =23;
 		
 		System.out.println("Name of student is "+myObj1.name+" and age is "+myObj2.x);
-
+		
 	}
 
 }
