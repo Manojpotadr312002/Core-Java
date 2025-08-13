@@ -1,6 +1,7 @@
 package Classes;
 
 public class Objects {
+	
 	String name = "Manoj Potdar";
 	int age = 25;
 
@@ -13,3 +14,4 @@ public class Objects {
 	}
 
 }
+
