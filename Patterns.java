@@ -24,7 +24,6 @@ public class Patterns {
 		}
 		
 		
-		
 		// right angled triangle "1,2,3...."
 		int n=5;
 		for(int i=1;i<=n;i++) {
@@ -94,4 +93,5 @@ public class Patterns {
 		
 	}
 }
+
 
