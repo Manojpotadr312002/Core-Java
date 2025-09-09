@@ -8,6 +8,9 @@ public class Strings {
 		
 		System.out.println(a.concat(b));
 		System.out.println(a+""+b);
+
+		String result = a.concat(b);
+		System.out.println(result);
 	}
 
 }
