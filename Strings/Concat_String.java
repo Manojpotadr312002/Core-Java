@@ -7,6 +7,7 @@ public class Strings {
 		String b = "Manoj";
 		
 		System.out.println(a.concat(b));
+		System.out.println(a+""+b);
 	}
 
 }
