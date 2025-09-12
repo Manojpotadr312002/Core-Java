@@ -14,6 +14,9 @@ public class Strings {
 		String txt3 = "Hello\nWorld!";
 	    System.out.println(txt3);
 
+		String txt4 = "Hello\rWorld!";
+        System.out.println(txt4);
+
 	}
 
 }
