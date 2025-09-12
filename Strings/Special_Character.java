@@ -17,6 +17,15 @@ public class Strings {
 		String txt4 = "Hello\rWorld!";
         System.out.println(txt4);
 
+		String txt5 = "Hello\tWorld!";
+	    System.out.println(txt5);
+	    
+	    String txt6 = "Hel\blo World!";
+	    System.out.println(txt6);
+	    
+	    String txt7 = "Hel\flo World!";
+	    System.out.println(txt7);
+
 	}
 
 }
