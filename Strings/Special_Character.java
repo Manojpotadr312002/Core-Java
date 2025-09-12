@@ -8,6 +8,12 @@ public class Strings {
 		String txt1 = "It\'s alright.";
 		System.out.println(txt1);
 
+		String txt2 = "The character \\ is called backslash.";
+		System.out.println(txt2);
+		
+		String txt3 = "Hello\nWorld!";
+	    System.out.println(txt3);
+
 	}
 
 }
