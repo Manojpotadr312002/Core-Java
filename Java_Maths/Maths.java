@@ -11,10 +11,12 @@ public class Maths {
 		System.out.println(Math.pow(2, 8));
 		System.out.println(Math.round(4.6));
 		System.out.println(Math.ceil(4.1));
+		System.out.println(Math.floor(4.9)); 
 
 	}
 
 }
+
 
 
 
