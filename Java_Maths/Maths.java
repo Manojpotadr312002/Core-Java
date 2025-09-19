@@ -12,10 +12,12 @@ public class Maths {
 		System.out.println(Math.round(4.6));
 		System.out.println(Math.ceil(4.1));
 		System.out.println(Math.floor(4.9)); 
+		System.out.println(Math.random());
 
 	}
 
 }
+
 
 
 
