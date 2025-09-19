@@ -14,9 +14,13 @@ public class Maths {
 		System.out.println(Math.floor(4.9)); 
 		System.out.println(Math.random());
 
+		int randomNum = (int)(Math.random() * 101);  // 0 to 100
+    	System.out.println(randomNum);
+
 	}
 
 }
+
 
 
 
