@@ -1,5 +1,5 @@
-import java.io.File;       // Import the File class
-import java.io.IOException; // Import IOException to handle errors
+import java.io.File;       
+import java.io.IOException; 
 
 public class CreateFile {
   public static void main(String[] args) {
