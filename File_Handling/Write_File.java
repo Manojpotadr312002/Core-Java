@@ -1,5 +1,5 @@
-import java.io.FileWriter;   // Import the FileWriter class
-import java.io.IOException;  // Import the IOException class
+import java.io.FileWriter;   
+import java.io.IOException;  
 
 public class WriteToFile {
   public static void main(String[] args) {
