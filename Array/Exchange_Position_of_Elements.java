@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+
 class array{
 	public static void main(String args[]){
 //Exchange position of elements in array
