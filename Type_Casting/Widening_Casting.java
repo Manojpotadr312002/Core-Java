@@ -1,4 +1,3 @@
-package Type_Casting;
 import java.io.*;
 import java.util.*;
 
@@ -14,6 +13,7 @@ public class Widening_Casting {
 	}
 
 }
+
 
 
 
