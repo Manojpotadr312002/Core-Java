@@ -11,7 +11,7 @@ public class Method {
 	public static void main(String[] args) {
 		
 		myStaticMethod();
-		//myPublicMethod();
+		
 		
 		Method obj = new Method();
 		obj.myPublicMethod();
