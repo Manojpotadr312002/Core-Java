@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+
 public class Attributes {
 	
 	final int y = 10;
