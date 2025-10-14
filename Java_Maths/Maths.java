@@ -1,5 +1,8 @@
 package Java_Maths;
 
+import java.io.*;
+import java.util.*;
+
 public class Maths {
 
 	public static void main(String[] args) {
@@ -20,6 +23,7 @@ public class Maths {
 	}
 
 }
+
 
 
 
