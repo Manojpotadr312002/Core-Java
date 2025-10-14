@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+
 public class Attribute {
   int x = 5;
 
