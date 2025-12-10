@@ -14,7 +14,6 @@ public class Attributes {
 		
 		myObj1.x = 25;
 	
-		
 		System.out.println(myObj1.x);
 		System.out.println(myObj2.y);
 
