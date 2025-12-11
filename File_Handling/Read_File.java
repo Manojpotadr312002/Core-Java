@@ -12,7 +12,8 @@ public class ReadFile {
         String data = myReader.nextLine();
         System.out.println(data);
       }
-    } catch (FileNotFoundException e) {
+    }
+      catch (FileNotFoundException e) {
       System.out.println("An error occurred.");
       e.printStackTrace();
     }
